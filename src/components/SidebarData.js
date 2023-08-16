@@ -2,11 +2,14 @@ import React from "react";
 import * as FaIcons from "react-icons/fa"
 import * as AiIcons from "react-icons/ai"
 import * as IoIcons from "react-icons/io"
+import * as MdIcons from "react-icons/md"
+
+
 
 export const SidebarData = [
     {
         title: 'Home',
-        path: '/Home',
+        path: '/',
         icon: <AiIcons.AiFillHome />,
         cName: 'nav-text'
     },
@@ -19,7 +22,7 @@ export const SidebarData = [
     {
         title: 'yoga casal',
         path: '/About',
-        icon: <AiIcons.AiFillHome />,
+        icon: <MdIcons.MdPregnantWoman />,
         cName: 'nav-text'
     },
     {
