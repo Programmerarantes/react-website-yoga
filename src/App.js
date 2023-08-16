@@ -1,21 +1,17 @@
-import { useState } from 'react'
-import Navbar from './components/Navbar'
-import { GiHamburgerMenu } from "react-icons/gi"
+import React from 'react'
+import Sidebar from './components/Sidebar';
+import Header from './components/Header';
 import './App.css'
 
 function App() {
-  const [showNav, setShowNav] = useState(false)
-  
   return (
-    <div className="App">
-      <header>
-          <GiHamburgerMenu onClick={() => setShowNav(!showNav)}/>
-          <h1>Olá</h1>
-      </header>
-      
-
-      <Navbar show={showNav}/>
-      <div className='Main'></div>
+    <div className="App" id="outer-container">
+      < Header />
+      <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
+      <div id="page-wrap">
+        <h1>Cool Restaurant</h1>
+        <h2>Check out our offerings in the sidebar!</h2>
+      </div>
     </div>
   );
 }
