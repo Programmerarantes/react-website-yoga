@@ -1,18 +1,23 @@
 import React from 'react'
-import Sidebar from './components/Sidebar';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import './App.css'
+import Home from './pages/Home'
+import Classes from './pages/Classes'
+import About from './pages/About'
 
 function App() {
   return (
-    <div className="App" id="outer-container">
-      < Header />
-      <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
-      <div id="page-wrap">
-        <h1>Cool Restaurant</h1>
-        <h2>Check out our offerings in the sidebar!</h2>
-      </div>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/home' exact component={Home}/>
+          <Route path='/about' exact component={About}/>
+          <Route path='/classes' exact component={Classes}/>
+        </Routes>  
+      </Router>
+    </>
   );
 }
 
