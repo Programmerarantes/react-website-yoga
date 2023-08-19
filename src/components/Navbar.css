@@ -8,9 +8,13 @@
 }
 
 .menu-bars {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
   margin-left: 2rem;
   font-size: 2rem;
   background: none;
+  color: black;
 }
 
 .nav-menu {

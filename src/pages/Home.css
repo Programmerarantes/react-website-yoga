@@ -29,22 +29,25 @@
     flex-wrap: wrap;
     align-content: flex-start;
 }
-
-
 .separator {
     color: #6A5A41;
     font-family: "Poppins", Sans-serif;
     font-size: 21px;
     font-weight: 400;
 }
+.legend {
+    color: #131313;
+}
 .text-one {
+    max-width: 700px;
     margin: 0% 50% 0% 0%;
     padding: 0px 0px 10px 0px;
     width: 100%;
 }
 .text-one > h3 {
+
     margin-bottom: 30px;
-    color: #FFFFFF;
+    color: #96d6b3;
     font-family: "Poppins", Sans-serif;
     font-size: 50px;
     font-weight: 700;
@@ -59,7 +62,7 @@
     }        
 }
 .text-one > p {
-    color: #FFFFFF;
+    color: #4b4747;
     font-family: "Open Sans", Sans-serif;
     font-size: 21px;
     font-weight: 500;
@@ -68,6 +71,7 @@
 }
 
 .btn-one {
+    text-decoration: none;
     color: #FFFFFF;
     font-family: "Barlow", Sans-serif;
     font-size: 20px;
