@@ -1,7 +1,7 @@
 import React from "react";
 /*import * as FaIcons from "react-icons/fa"*/
-import * as AiIcons from "react-icons/ai"
-import * as IoIcons from "react-icons/io"
+import * as PiIcons from "react-icons/pi"
+import * as GiIcons from "react-icons/gi"
 import * as MdIcons from "react-icons/md"
 
 
@@ -10,13 +10,13 @@ export const SidebarData = [
     {
         title: 'Home',
         path: '/',
-        icon: <AiIcons.AiFillHome />,
+        icon: <PiIcons.PiButterflyDuotone />,
         cName: 'nav-text'
     },
     {
         title: 'Yoga Casal',
         path: '/YogaCasal',
-        icon: <IoIcons.IoIosPaper />,
+        icon: <GiIcons.GiLovers />,
         cName: 'nav-text'
     },
     {

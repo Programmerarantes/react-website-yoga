@@ -20,7 +20,7 @@ function Navbar() {
             <FaIcons.FaBars onClick={showSidebar}/>
             <h3 onClick={showSidebar}>MENU </h3>
           </Link>
-          <div class="navbar-text">
+          <div className="navbar-text">
             <h4>Yoga com Camila</h4>
             <GiIcons.GiLotus className='icon-bars'/>
             <p>Doula e Yoga para Gestantes</p>
