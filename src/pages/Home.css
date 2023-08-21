@@ -1,91 +1,33 @@
-.container-one {
-    background: url(images/yoga1.png);
+.home{
+    background: url(images/pregnancy-yoga2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     height: 100vh;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    padding-left: 50px;
-}
-@media (max-width: 767px) {
-    .container-one {
-        background-image: url(images/yoga1.png);
-        background-position: 62% 43px;
-        background-size: cover;
-    }
-}
-@media (max-width: 576px) {
-    .container-one {
-        background-image: url(images/yoga11.png);
-    }
-}
-.box-container-one {
-    padding: 10px;
-    width: 100%;
-    flex-wrap: wrap;
-    align-content: flex-start;
-}
-.separator {
-    color: #6A5A41;
-    font-family: "Poppins", Sans-serif;
-    font-size: 21px;
-    font-weight: 400;
-}
-.legend {
-    color: #131313;
-}
-.text-one {
-    max-width: 700px;
-    margin: 0% 50% 0% 0%;
-    padding: 0px 0px 10px 0px;
     width: 100%;
 }
-.text-one > h3 {
 
-    margin-bottom: 30px;
-    color: #96d6b3;
-    font-family: "Poppins", Sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 1.1em;
-    text-shadow: 2px 2px 1px #000000;
-}
-@media screen and (max-width: 767px) {
-    .text-one > h3 {
-        margin-bottom: 20px;
-        font-size: 30px;
-        line-height: 1.3em;
-    }        
-}
-.text-one > p {
-    color: #4b4747;
-    font-family: "Open Sans", Sans-serif;
-    font-size: 21px;
-    font-weight: 500;
-    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.99);
-    margin-bottom: 15px;
+.home-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+    background-color: #99854b66;
+    padding: 15px;
 }
 
-.btn-one {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-family: "Barlow", Sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: #7e5b5e;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #FFFFFFA3;
-    border-radius: 50px;
-    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.25);
-    padding: 10px 14px;
+.home-text > h2 {
+    font-size: 40px;
+    max-width: 600px;
 }
 
-@media screen and (max-width: 385px) {
-    .btn-one {
-        font-size: 12px;
-    }
+.home-text > p {
+    max-width: 600px;
+    font-size: 25px;
+}
+#container-two, #container-three {
+    height: 100vh;
 }

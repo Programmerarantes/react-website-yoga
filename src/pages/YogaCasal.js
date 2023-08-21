@@ -1,10 +1,10 @@
 import React from "react"
 
-function About () {
+function YogaCasal () {
     return (
-        <div className="about">
+        <div className="yoga-casal">
             <h1>About</h1>
         </div>
     )
 }
-export default About
+export default YogaCasal
