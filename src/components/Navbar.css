@@ -1,24 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
 .navbar {
-  background-color: #D9E4DE;
+  background-color: #99864B;
   height: 60px;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: space-between;
+  padding: 30px 25px;
   box-shadow: 0px 15px 10px -15px #111;
+  color: white;
+}
+.navbar h3 {
+  font-size: 22px;
+  margin-left: 3px;
+}
+.navbar-text {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 1.2em;
+  margin: 0 auto;
+  
+}
+.navbar-text h4, .navbar-text p {
+  margin-right: 10px;
+  font-family: 'Poppins', sans-serif;
 }
 
+.icon-bars {
+  margin-right: 10px;
+}
 .menu-bars {
   display: flex;
+  justify-content: center;
   align-items: center;
   text-decoration: none;
   margin-left: 2rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background: none;
-  color: black;
+  color: white;
 }
 
 .nav-menu {
-  background-color: #D9E4DE;
+  background-color: #99864B;
   width: 250px;
   height: 100vh;
   display: flex;
@@ -46,7 +71,7 @@
 
 .nav-text a {
   text-decoration: none;
-  color: #101010;
+  color: white;
   font-size: 18px;
   width: 95%;
   height: 100%;
@@ -65,7 +90,7 @@
 }
 
 .navbar-toggle {
-  background-color: #D9E4DE;
+  background-color: #99864B;
   width: 100%;
   height: 80px;
   display: flex;

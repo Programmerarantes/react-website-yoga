@@ -2,14 +2,13 @@
     background: url(images/yoga1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: flex-start;
-    padding-left: 70px;
+    align-items: center;
+    padding-left: 50px;
 }
 @media (max-width: 767px) {
     .container-one {

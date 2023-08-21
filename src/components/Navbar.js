@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import * as FaIcons from "react-icons/fa"
 import * as AiIcons from "react-icons/ai"
+import * as GiIcons from "react-icons/gi"
 import {Link} from 'react-router-dom'
 import { SidebarData } from "./SidebarData"
 import './Navbar.css'
@@ -13,12 +14,17 @@ function Navbar() {
 
   return (
     <>
-      <IconContext.Provider value={{ color: 'black' }}>
+      <IconContext.Provider value={{ color: 'white' }}>
         <div className='navbar'>
           <Link to="#" className='menu-bars'>
             <FaIcons.FaBars onClick={showSidebar}/>
             <h3 onClick={showSidebar}>MENU </h3>
           </Link>
+          <div class="navbar-text">
+            <h4>Yoga com Camila</h4>
+            <GiIcons.GiLotus className='icon-bars'/>
+            <p>Doula e Yoga para Gestantes</p>
+          </div>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items'onClick={showSidebar}>
