@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+@import url('https://fonts.cdnfonts.com/css/avenir');
+@import url('https://fonts.cdnfonts.com/css/futura-lt');
+
 
 .container-one{
     background: url(images/pregnancy-yoga2.jpg);
@@ -29,7 +32,7 @@
 }
 
 .home-text > p {
-
+    font-family: 'Futura LT', sans-serif;
     font-size: 25px;
     text-shadow: 0.1em 0.1em 0.2em black
 }
@@ -43,10 +46,6 @@
     border-radius: 20px;
     font-family: 'Gothic A1', sans-serif;
 }
-#container-two {
-    height: 100vh;
-}
-
 @media (max-width: 768px) {
     .container-one {
         background: url(images/pregnancy-yoga3.png);
@@ -58,7 +57,7 @@
 
 @media (max-width: 576px) {
     .container-one{
-        background: url(images/pregnancy-yoga4.jpg);
+        background: url(images/pregnancy-yoga5.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -75,4 +74,34 @@
     .home-text > a {
         font-size: 18px;
     }
+}
+
+.container-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #99aa8a92;
+    padding: 10px 50px;
+}
+
+.two-text {
+    margin: 20px 40px;
+}
+.two-text h4 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.two-text p {
+    font-family: 'Avenir', sans-serif;
+    color: rgba(0, 0, 0, 0.566);
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.container-three {
+    height: 100vh;
 }

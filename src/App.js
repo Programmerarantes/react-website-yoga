@@ -5,6 +5,8 @@ import './App.css'
 import Home from './pages/Home'
 import Doula from './pages/Doula'
 import YogaCasal from './pages/YogaCasal'
+import ScrollUpButton from './components/ScrollUpButtom';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
           <Route path='/doula' element={<Doula/>}/>
         </Routes>  
       </Router>
+      <ScrollUpButton />
     </>
   );
 }

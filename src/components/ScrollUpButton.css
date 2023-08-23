@@ -1,0 +1,23 @@
+.scroll-up-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  
+    &.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+}
+    button {
+      background-color: #4F5847;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 40px;
+    }
+  
+  

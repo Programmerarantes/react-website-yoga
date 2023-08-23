@@ -2,7 +2,9 @@
 
 
 .navbar {
+  position: fixed;
   background-color: #99864B;
+  width: 100vw;
   height: 60px;
   display: flex;
   align-items: center;
