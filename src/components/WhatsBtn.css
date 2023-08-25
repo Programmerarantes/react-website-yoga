@@ -3,12 +3,12 @@
 }
 
 a {
-text-decoration: none;
-font-size: 25px;
-margin-top: 20px;
-color: white;
-background-color: #4F5847;
-padding: 10px;
-border-radius: 20px;
-font-family: 'Gothic A1', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #4F5847;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Gothic A1', sans-serif;
 }
