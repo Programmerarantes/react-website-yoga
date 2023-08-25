@@ -36,16 +36,7 @@
     font-size: 25px;
     text-shadow: 0.1em 0.1em 0.2em black
 }
-.home-text > a{
-    text-decoration: none;
-    font-size: 25px;
-    margin-top: 20px;
-    color: white;
-    background-color: #4F5847;
-    padding: 10px;
-    border-radius: 20px;
-    font-family: 'Gothic A1', sans-serif;
-}
+
 @media (max-width: 768px) {
     .container-one {
         background: url(images/pregnancy-yoga3.png);
@@ -86,7 +77,8 @@
 }
 
 .two-text {
-    margin: 20px 40px;
+    margin: 30px auto;
+    width: 80%;
 }
 .two-text h4 {
     color: white;
@@ -103,5 +95,32 @@
 }
 
 .container-three {
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #777667a1;
+}
+.wrapper-container {
+    margin: 50px auto;
+    width: 80%;
+}
+.text-three img {
+    max-width: 320px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.text-three {
+    color: white;
+}
+.text-three h3 {
+    font-size: 25px;
+    text-align: center;
+}
+.text-three p {
+    font-size: 18px; 
+    margin: 8px 0;
+    font-family: 'Avenir', sans-serif;
 }

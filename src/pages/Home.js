@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css'
 import * as BsIcon from 'react-icons/bs' 
+import ImageYoga4 from './images/yoga5.png'
+import WhatsBtn from '../components/WhatsBtn'
 
 function Home() {
   return (
@@ -9,7 +11,7 @@ function Home() {
             <div className="home-text">
                 <h2>EMPODERAMENTO, CENTRAMENTO E TRANQUILIDADE: YOGA PRENATAL ONLINE</h2>
                 <p>Você pode ter uma experiência de gravidez e pós parto mais equilibrida e fortalecida através do yoga</p>
-                <a href="https://api.whatsapp.com/send?phone=5548988036260&text=Ol%C3%A1%20Camila.%20Vi%20teu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es" target='_blank' rel="noreferrer">Agende sua aula <BsIcon.BsWhatsapp/></a>
+                < WhatsBtn />
             </div>
         </section>
         <section className='container-two'>
@@ -23,14 +25,14 @@ function Home() {
           </div>
         </section>
         <section className='container-three'>
-          <div>
-            <img src="/content/dam/health2021/images/photos/stock/people/non-clinical/moms-doing-yoga.jpg" alt="woman yoga"/>
-          </div>
-          <div>
-            <h3>O que você aprenderá em minhas aulas</h3>
-            <p>1. Principais posturas de yoga e exercícios funcionais que não apenas aliviam o desconforto, previnem lesões e relaxam você, mas também preparam você para o parto e pós-parto.</p>
-            <p>2. Técnicas de respiração que servem como ferramentas poderosas para lidar com as contrações, reduzir a ansiedade e encontrar uma profunda sensação de calma em meio à intensidade do trabalho de parto. Essas técnicas também suportam a força e a estabilidade da região abdominal e do assoalho pélvico, ao mesmo tempo que trazem relaxamento e entrega.</p>
-            <p>3. Ferramentas e recursos personalizados para apoiá-la em seu caminho único para a maternidade, seja sua primeira vez ou se você já é uma mãe experiente. Você receberá orientações que irão nutrir sua confiança e capacitá-la nesta jornada incrível, como Pdf's com afirmações positivas e hypnobirthing, indicações de livros, meditações guiadas e aulas especiais gravadas para fazer antes ou durante o trabalho de parto e pós parto imediato</p>
+          <div class="wrapper-container">
+            <div className='text-three'>
+              <img src={ImageYoga4} alt="Yoga"/>
+              <h3>O que você aprenderá em minhas aulas <BsIcon.BsFlower2/></h3>
+              <p>1. Principais posturas de yoga e exercícios funcionais que não apenas aliviam o desconforto, previnem lesões e relaxam você, mas também preparam você para o parto e pós-parto.</p>
+              <p>2. Técnicas de respiração que servem como ferramentas poderosas para lidar com as contrações, reduzir a ansiedade e encontrar uma profunda sensação de calma em meio à intensidade do trabalho de parto. Essas técnicas também suportam a força e a estabilidade da região abdominal e do assoalho pélvico, ao mesmo tempo que trazem relaxamento e entrega.</p>
+              <p>3. Ferramentas e recursos personalizados para apoiá-la em seu caminho único para a maternidade, seja sua primeira vez ou se você já é uma mãe experiente. Você receberá orientações que irão nutrir sua confiança e capacitá-la nesta jornada incrível, como Pdf's com afirmações positivas e hypnobirthing, indicações de livros, meditações guiadas e aulas especiais gravadas para fazer antes ou durante o trabalho de parto e pós parto imediato</p>
+            </div>
           </div>
         </section>
     </>

@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Doula from './pages/Doula'
 import YogaCasal from './pages/YogaCasal'
 import ScrollUpButton from './components/ScrollUpButtom';
+import Footer from './components/Footer'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         </Routes>  
       </Router>
       <ScrollUpButton />
+      <Footer />
     </>
   );
 }
