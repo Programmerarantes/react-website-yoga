@@ -7,15 +7,16 @@ import Doula from './pages/Doula'
 import YogaCasal from './pages/YogaCasal'
 import ScrollUpButton from './components/ScrollUpButtom';
 import Footer from './components/Footer'
-
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home />}/>
+          <Route path='/' exact element={<Home />}/>
           <Route path='/yogacasal' element={<YogaCasal/>}/>
           <Route path='/doula' element={<Doula/>}/>
         </Routes>  
