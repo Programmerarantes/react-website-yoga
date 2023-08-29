@@ -7,6 +7,7 @@ function Doula() {
       <section className='doula--container'>
           <div className='doula--content'>
             <h1>Doulagem</h1>
+            <hr/>
             <p>Com todo meu amor pelo gestar, parir e maternar, como doula oforeceço meu apoio emocional e orientação de bem-estar para garantir que as gestantes estejam bem preparadas e confortáveis durante a gestação, parto e pós parto. </p>
             <p>Há muitas evidências de que o apoio da doula melhora a experiência e os resultados do parto tanto para a mulher,  como para o bebé.</p>
             <p>Eu como doula não aconselho, mas forneço meu apoio informativo para que você possa tomar decisões informadas sobre seus cuidados de maternidade. Como doula, apoio diferentes tipos de nascimentos e diferentes escolhas parentais. Não assumo uma função clínica, mas trabalho ao lado de parteiras e médicos.</p>
@@ -23,7 +24,6 @@ function Doula() {
           <p>Orientar o parceiro, a família e/ou o sistema de apoio da mulher para ajudar a futura mãe a preparar-se física e emocionalmente para o parto</p>
           <p>Ajudar as mães nos cuidados infantis pós-natais, incluindo orientação alimentar</p>
         </div>
-        
       </section>
     </>  
   )

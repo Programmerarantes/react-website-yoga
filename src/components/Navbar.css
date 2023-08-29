@@ -14,16 +14,18 @@
   color: white;
 }
 .navbar h3 {
-  font-size: 22px;
-  margin-left: 3px;
+  font-size: 25px;
 }
+a {
+  margin-bottom: 10px;
+}
+
 .navbar-text {
   display: flex;
   align-items: center;
   margin-right: 10px;
   font-size: 1.2em;
   margin: 0 auto;
-  
 }
 .navbar-text h4, .navbar-text p {
   margin-right: 10px;
@@ -33,7 +35,6 @@
 .icon-bars {
   margin-right: 10px;
 }
-
 
 .menu-bars {
   display: flex;
