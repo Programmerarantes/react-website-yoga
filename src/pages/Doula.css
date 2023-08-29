@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&display=swap');
+
+.doula--container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/naturalbirth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.doula--content {
+    margin-top: 30px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.473);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.doula--content h1 {
+    font-family: 'Phudu', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.doula--content p {
+    color: rgba(0, 0, 0, 0.834);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Avenir', sans-serif;
+    text-shadow: 1px 1px 2px white;
+}
+
+.doula--containertwo {
+    height: 100%;
+    background-color: #99aa8a92;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.doula--contenttwo {
+    width: 80%;
+    margin: 20px auto;
+}
+.doula--contenttwo h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.doula--contenttwo p {
+    color: rgba(0, 0, 0, 0.566);
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Avenir', sans-serif;
+    margin-bottom: 10px;
+}

@@ -65,6 +65,7 @@
     .home-text > a {
         font-size: 18px;
     }
+
 }
 
 .container-two {
@@ -79,6 +80,11 @@
 .two-text {
     margin: 30px auto;
     width: 80%;
+}
+@media (max-width: 576px) {
+    .two-text {
+       width: 100%;
+    }
 }
 .two-text h4 {
     color: white;

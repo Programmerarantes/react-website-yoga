@@ -8,6 +8,7 @@ export default function YogaCasal() {
         <section className='yoga--casal'>
             <div className="yogacasal--text">
                 <h2>YOGA CASAL</h2>
+                <hr/>
                 <p>Já pensou em fazer uma prática de yoga com quem irá te acompanhar durante o parto?</p>
                 <p>O Yoga Casal/em Dupla oferece uma oportunidade única para a dupla aumentar sua parceria, confiança e acolhimento durante a gestação e parto.</p>
                 <p>Um dos focos desse workshop é como o acompanhante pode melhor estar e agir para ajudar a gestante durante o trabalho de parto.</p>

@@ -1,12 +1,14 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
 .yoga--casal {
-    background: url(images/yogacasal1.png);
+    background: url(images/kaylee-garrett-byXBiE-_oBs-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
     height: 100vh;
     display: flex;
     align-items: center;   
-    padding-top: 20px;
+    padding-top: 30px;
 }
 .yogacasal--text {
     display: flex;
@@ -17,15 +19,16 @@
     width: 800px;
     border-radius: 5px;
     color: white;
-    background-color: #99854b66;
+    background-color: #1717165e;
     text-shadow: 1px 1px 2px black;
-    padding: 15px;
+    padding: 10px;
     margin: 0 auto;
-
 }
+
 .yogacasal--text h2 {
     font-size: 40px;
     margin-bottom: 5px;
+    font-family: 'Phudu', cursive;
 }
 .yogacasal--text p {
     font-family: 'Futura LT', sans-serif;
@@ -45,14 +48,27 @@
 }
 
 .yogacasal--about {
-    height: 100vh;
+    height: 100%;
     background-color: #99aa8a92;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .about--text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;    
+    width: 80%;
+    margin: 20px auto;
+}
+.about--text h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.about--text p {
+    color: rgba(0, 0, 0, 0.566);
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Avenir', sans-serif;
+    margin-bottom: 10px;
+
 }
