@@ -8,6 +8,8 @@ import YogaCasal from './pages/YogaCasal'
 import ScrollUpButton from './components/ScrollUpButtom';
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop';
+import { Analytics } from '@vercel/analytics/react';
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
       </Router>
       <ScrollUpButton />
       <Footer />
+      <Analytics />
     </>
   );
 }

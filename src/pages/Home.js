@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import * as BsIcon from 'react-icons/bs' 
-import ImageYoga4 from './images/yoga5.png'
+import ImageYoga5 from './images/yoga5.png'
 import WhatsBtn from '../components/WhatsBtn'
 
 function Home() {
@@ -27,7 +27,7 @@ function Home() {
         <section className='container-three'>
           <div class="wrapper-container">
             <div className='text-three'>
-              <img src={ImageYoga4} alt="Yoga"/>
+              <img src={ImageYoga5} alt="Yoga"/>
               <h3>O que você aprenderá em minhas aulas <BsIcon.BsFlower2/></h3>
               <p>1. Principais posturas de yoga e exercícios funcionais que não apenas aliviam o desconforto, previnem lesões e relaxam você, mas também preparam você para o parto e pós-parto.</p>
               <p>2. Técnicas de respiração que servem como ferramentas poderosas para lidar com as contrações, reduzir a ansiedade e encontrar uma profunda sensação de calma em meio à intensidade do trabalho de parto. Essas técnicas também suportam a força e a estabilidade da região abdominal e do assoalho pélvico, ao mesmo tempo que trazem relaxamento e entrega.</p>

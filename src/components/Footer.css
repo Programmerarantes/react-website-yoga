@@ -4,4 +4,19 @@ footer {
     color: #353b30;
     text-align: center;
     width: 100%;
+    height: 100%;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+a {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
